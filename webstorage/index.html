@@ -1,0 +1,250 @@
+<!doctype html>  
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>CSS 3D Slideshow</title>
+		
+		<link href='http://fonts.googleapis.com/css?family=Crimson+Text:regular,600,bold' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	
+	<body>
+		
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div id="main">
+			
+			<section>
+				<h1>WebStorage</h1>
+				<h3 class="inverted">Client-side Storage</h3>
+
+IMG aqui da geladeira
+
+<h4>Jean Carlo Nascimento aka SUISSA</h4>
+				<script>
+					// Delicously hacky. Look away.
+/*
+					var message = navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ? 'Tap to navigate' : 'Navigate via keyboard';
+					document.write( '<p style="color: rgba(0,0,0,0.1); text-shadow: none;">('+message+')</p>' );
+*/
+				</script>
+			</section>
+			
+			<section>
+				<h2>Sobre mim</h2>
+				<p>
+					img da desconferencia<br />
+
+img minha<br />
+
+<a href="http://nosqlbr.com.br" title="NoSQL Brasil" target="_blank">nosqlbr.com.br</a><br />
+<a href="http://jquerybrasil.org" title="jQuery Brasil" target="_blank">jquerybrasil.org</a><br />
+<a href="http://frontendbrasil.com.br" title="Frontend Brasil" target="_blank">frontendbrasil.com.br</a><br />
+<a href="http://github.com/suissa" title="Meu Github" target="_blank">github.com/suissa</a><br />
+<a href="http://about.me/suissa" title="About Me" target="_blank">about.me/suissa</a><br />
+<a href="http://twitter.com/osuissa" title="meu twitter @osuissa" target="_blank">@osuissa</a><br />
+				</p>
+			</section>
+			
+			<!-- Example of nested vertical slides -->
+			<section>
+				<section>
+					<h2>Cookies</h2>
+					<p>
+						img do cookies
+					</p>
+				</section>
+				<section>
+					<h2>SEM API</h2>
+					<pre>
+function setCookie(c_name,value,exdays){
+    var exdate=new Date();
+    exdate.setDate(exdate.getDate() + exdays);
+    var c_value=escape(value) + ((exdays==null) ? "" : ";     
+    expires="+exdate.toUTCString());
+    document.cookie=c_name + "=" + c_value;
+} 
+
+fonte: http://www.w3schools.com/js/js_cookies.asp
+</pre>
+				</section>
+				<section>
+					<h2>SEM API</h2>
+					<pre>
+function getCookie(c_name){
+    var i,x,y,ARRcookies=document.cookie.split(";");
+<!--    for (i=0;i<ARRcookies.length;i++){
+          x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+          y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+          x=x.replace(/^\s+|\s+$/g,"");
+          if (x==c_name){
+                return unescape(y);
+            }
+      }
+}-->
+</pre>
+				</section>
+				<section>
+					<h2>Chave/Valor</h2>
+					<p>nome=valor</p>
+				</section>
+				<section>
+					<h2>Tamanho máximo</h2>
+					<p>4Kb</p>
+				</section>
+				<section>
+					<h2>Requisição</h2>
+					<p>Enviado para o servidor em toda a requisição</p>
+				</section>
+				<section>
+					<h2>Navegadores</h2>
+					<p>Colocar imagens dos navegadores</p>
+				</section>
+			</section>
+			
+            
+            <section>
+				<section>
+					<h2>WebStorage</h2>
+					<p>
+						img do webstorage
+					</p>
+				</section>
+				<section>
+					<h2>API Storage</h2>
+					<pre>
+localStorage.setItem()
+localStorage.getItem()
+localStorage.clear()
+localStorage.key()
+localStorage.removeItem()
+
+sessionStorage.setItem()
+sessionStorage.getItem()
+sessionStorage.clear()
+sessionStorage.key()
+sessionStorage.removeItem()
+
+</pre>
+				</section>
+				<section>
+					<h2>Chave/Valor</h2>
+					<p>nome:valor</p>
+				</section>
+				<section>
+					<h2>Tamanho máximo</h2>
+					<p>5Mb*<br />
+                                        *aumentado via cache manifest
+                    </p>
+				</section>
+				<section>
+					<h2>Requisição</h2>
+					<p>Não é enviado ao servidor</p>
+				</section>
+				<section>
+					<h2>Navegadores</h2>
+					<p>Colocar imagens dos navegadores</p>
+				</section>
+			</section>
+            
+			
+			<section>
+				<section>
+					<h2>WebSQL</h2>
+					<p>
+						img do websql
+					</p>
+				</section>
+				
+				<section>
+					<h2>Chave/Valor</h2>
+					<p>nome:valor</p>
+				</section>
+				<section>
+					<h2>Tamanho máximo</h2>
+					<p>5Mb*<br />
+                                        *aumentado via cache manifest
+                    </p>
+				</section>
+                
+				<section>
+					<h2>Requisição</h2>
+					<p>Não é enviado ao servidor</p>
+				</section>
+				<section>
+					<h2>Causo real</h2>
+					<p>CUIDADO AO UTILIZAR NOVAS TECNOLOGIAS AINDA NÃO PADRONIZADAS!</p>
+				</section>
+				<section>
+					<h2>Navegadores</h2>
+					<p>Colocar imagens dos navegadores</p>
+				</section>
+			</section>
+			
+			
+			<section>
+				<section>
+					<h2>IndexedDB</h2>
+					<p>
+						img do INDEXEDDB
+					</p>
+				</section>
+				
+				<section>
+					<h2>Chave/Valor</h2>
+					<p>nome:valor</p>
+				</section>
+				<section>
+					<h2>Tamanho máximo</h2>
+					<p>5Mb*<br />
+                                        *aumentado via cache manifest
+                    </p>
+				</section>
+				<section>
+					<h2>Requisição</h2>
+					<p>Não é enviado ao servidor</p>
+				</section>
+				<section>
+					<h2>Navegadores</h2>
+					<p>Colocar imagens dos navegadores</p>
+				</section>
+			</section>
+			
+			<section>
+				<h2>TESTE DE SUPORTE</h2>
+				<a class="image" href="http://hakim.se/experiments/html5/breakdom/" target="_blank">
+					<img src="assets/images/breakdom.jpg">
+				</a>
+			</section>
+			
+			<section>
+				<h2>Stellar Links</h2>
+				<ul>
+					<li><a href="hakim-slideshow-0.3.zip">Download this slideshow</a></li>
+					<li><a href="http://hakim.se/experiments/css3-3d-slideshow">Read more on my site</a></li>
+					<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
+				</ul>
+			</section>
+			
+			<section>
+				<h1>Referências</h1>
+                            <p class="left">
+                                <a href="http://dev.w3.org/html5/webstorage/#the-sessionstorage-attribute" title="sessionStorage" target="_blank">http://dev.w3.org/html5/webstorage/#the-sessionstorage-attribute</a><br />
+                                
+                                <a href="http://dev.w3.org/html5/webstorage/#dom-localstorage" title="localStorage" target="_blank">http://dev.w3.org/html5/webstorage/#dom-localstorage</a><br />
+                                <a href="http://dev.w3.org/html5/webdatabase/" title="WebDatabase" target="_blank">http://dev.w3.org/html5/webdatabase/</a><br />
+                                <a href="http://www.w3.org/TR/IndexedDB/" title="IndexedDB" target="_blank">http://www.w3.org/TR/IndexedDB/ </a><br />
+                                <a href="https://developer.mozilla.org/en/IndexedDB" title="IndexedDB by Mozilla" target="_blank">https://developer.mozilla.org/en/IndexedDB </a><br />
+                            </p>
+			</section>
+			
+		</div>
+		
+		<script src="js/slideshow.js"></script>
+		
+		
+	</body>
+</html>
